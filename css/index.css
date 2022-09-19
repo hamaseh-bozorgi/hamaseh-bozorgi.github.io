@@ -7,9 +7,6 @@ h2{
     text-align: center;
 }
 
-.custom-overflow{
-    overflow: hidden;
-}
 .product1{
    
     background-image: url("../images/new-1-hover.gif");
@@ -17,13 +14,6 @@ h2{
     background-size: cover; 
     background-origin: content-box;
     
-}
-.product1 img{
-    transition: opacity 300ms ease-out 0s;
-}
-
-.product1:hover img{
-    opacity: 0;
 }
 
 .product2{
@@ -34,13 +24,7 @@ h2{
     background-origin: content-box;
     
 }
-.product2 img{
-    transition: opacity 300ms ease-out 0s;
-}
 
-.product2:hover img{
-    opacity: 0;
-}
 .product3{
    
     background-image: url("../images/new-3-hover.gif");
@@ -49,13 +33,7 @@ h2{
     background-origin: content-box;
     
 }
-.product3 img{
-    transition: opacity 300ms ease-out 0s;
-}
 
-.product3:hover img{
-    opacity: 0;
-}
 .product4{
    
     background-image: url("../images/new-4-hover.gif");
@@ -63,13 +41,6 @@ h2{
     background-size: cover; 
     background-origin: content-box;
     
-}
-.product4 img{
-    transition: opacity 300ms ease-out 0s;
-}
-
-.product4:hover img{
-    opacity: 0;
 }
 
 .product5{
@@ -80,13 +51,7 @@ h2{
     background-origin: content-box;
     
 }
-.product5 img{
-    transition: opacity 300ms ease-out 0s;
-}
 
-.product5:hover img{
-    opacity: 0;
-}
 .product6{
    
     background-image: url("../images/new-6-hover.jpg");
@@ -95,14 +60,40 @@ h2{
     background-origin: content-box;
     
 }
-.product6 img{
+
+.product7{
+   
+    background-image: url("../images/best-sell1-hover.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-origin: content-box;
+    
+}
+
+.product8{
+   
+    background-image: url("../images/best-sell2-hover.gif");
+    background-position: center;
+    background-size: cover; 
+    background-origin: content-box;
+    
+}
+
+.product9{
+   
+    background-image: url("../images/best-sell3-hover.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-origin: content-box;
+    
+}
+
+.custom-hover img{
     transition: opacity 300ms ease-out 0s;
 }
-
-.product6:hover img{
+.custom-hover:hover img{
     opacity: 0;
 }
-
 .price {
     direction: rtl;
     text-align: center;
@@ -124,8 +115,10 @@ h2{
     color: #a0a0a0;
 }
 
+.support{
+    background-color: #f7f7f7;
+} 
 @media all and (max-width:767px){
-
 }
 
 
