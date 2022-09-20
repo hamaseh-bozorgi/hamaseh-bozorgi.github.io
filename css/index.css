@@ -1,3 +1,12 @@
+p::selection{
+    background-color: #ed1c24;
+    color: white;
+}
+del::selection{
+    background-color: #f4767b;
+    color: white;
+}
+
 #navigation{
     height: 85px;
     background-color: black;
@@ -110,15 +119,19 @@ h2{
 }
 .price p{
     font-weight: bold;
+    cursor: pointer;
 }
 .price del{
     color: #a0a0a0;
+    cursor: pointer;
+
 }
 
 .support{
     background-color: #f7f7f7;
 } 
-@media all and (max-width:767px){
+@media all and (max-width:575px){
+   
 }
 
 
