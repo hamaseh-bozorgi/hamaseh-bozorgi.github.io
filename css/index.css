@@ -140,5 +140,41 @@ h2{
 }
 
 @media all and (min-width:992px){
+    /* .product1{
+        order: 0;
+    }
+    .product2{
+        order: 1;
+    }
+    .product-3{
+        order: 2;
+    }
+    .price1{
+        order: 3;
+    }
+    .price2{
+        order: 4;
+    }
+    .price3{
+        order: 5;
+    }
+    .product4{
+        order: 6;
+    }
+    .product5{
+        order: 7;
+    }
+    .product6{
+        order: 8;
+    }
+    .price4{
+        order: 9;
+    }
+    .price5{
+        order: 10;
+    }
+    .price6{
+        order: 11;
+    } */
 
 }
