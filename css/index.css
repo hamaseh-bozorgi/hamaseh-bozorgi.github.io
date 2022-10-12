@@ -1,3 +1,24 @@
+nav{
+    height: 85px;
+}
+.menu-icon{
+    line-height: 100px;
+    font-size: 26px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.logoImage{
+    line-height: 100px;
+}
+.nav-option{
+    width: 220 px;
+    height: 100px;
+}
+.option-input{
+    height: 33px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px 0.7px;
+}
+
 p::selection{
     background-color: #ed1c24;
     color: white;
@@ -5,6 +26,9 @@ p::selection{
 del::selection{
     background-color: #f4767b;
     color: white;
+}
+img::selection{
+    background-color: #ed1c24;
 }
 
 #navigation{
@@ -140,6 +164,23 @@ h2{
 }
 
 @media all and (min-width:992px){
-
-
+ 
+ .product-3{
+    transform: translatex(10px);
+ }
+ .product8{
+    transform: translatex(20px);
+ }
+ .product9{
+    transform: translatex(30px);
+ }
+ .price2{
+    transform: translatex(10px);
+ }
+ .price3{
+    transform: translatex(20px);
+ }
+ .price4{
+    transform: translatex(30px);
+ }
 }
