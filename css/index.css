@@ -164,10 +164,11 @@ h2 {
 .support {
     background-color: #f7f7f7;
 }
-.contact-us{
+.custom-fsize{
     font-size: 13px;
 }
-.footer{
+
+.footer-bg{
     background-image: url("../images/footer.png");
     background-position:center;
     background-repeat: no-repeat;
@@ -175,7 +176,14 @@ h2 {
 .contact-icons{
     width: 40px;
     height:40px;
+} 
+.custom-font{
+    font-size: 11px;
 }
+.list-fsize{
+    font-size: 12px;
+}
+
 
 
 
@@ -185,6 +193,9 @@ h2 {
         position: absolute;
         left: 50%;
         margin-left: -80px;
+    }
+    .footer{
+        height: 1150px;
     }
   
 }
@@ -199,9 +210,15 @@ h2 {
         position: absolute;
         left: 30px;
     }
+    .footer{
+        height: 1150px;
+    }
 }
 
 @media all and (min-width:992px) {
+    .footer{
+        height: 430px;
+    }
 
 
     .product-3 {
