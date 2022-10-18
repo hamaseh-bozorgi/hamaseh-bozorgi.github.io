@@ -7,12 +7,27 @@ nav {
 }
 
 .custom-navigation {
-    font-size: 13px;
+    font-size: calc(11px + 0.1vw);
     font-weight: 700;
 }
 
+.nav-option{
+    width: 220px;
+    height: 100px;
+    box-shadow: 0 0 1px 1px #c6c6c6;
+}
+.option-input{
+height: 30px;
+box-shadow: 0 0 1px 1px #c6c6c6;
+}
+
+
+
 .icons {
     left: 30px;
+}
+p , a ,li{
+    font-family: 'Vazirmatn', sans-serif;
 }
 
 .main-category {
@@ -178,13 +193,11 @@ h2 {
     height:40px;
 } 
 .custom-font{
-    font-size: 11px;
+    font-size: calc(11px +0.1vw);
 }
 .list-fsize{
-    font-size: 12px;
+    font-size: calc(12px + 0.1vw);
 }
-
-
 
 
 
@@ -218,29 +231,5 @@ h2 {
 @media all and (min-width:992px) {
     .footer{
         height: 430px;
-    }
-
-    .product-3 {
-        transform: translatex(10px);
-    }
-
-    .product8 {
-        transform: translatex(20px);
-    }
-
-    .product9 {
-        transform: translatex(30px);
-    }
-
-    .price2 {
-        transform: translatex(10px);
-    }
-
-    .price3 {
-        transform: translatex(20px);
-    }
-
-    .price4 {
-        transform: translatex(30px);
     }
 }
