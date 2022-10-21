@@ -56,6 +56,9 @@ img::selection {
     height: 85px;
     background-color: black;
 }
+.custom-nav-hover:hover a{
+    color: #ed1c24 !important;
+}
 
 h2 {
     text-align: center;
@@ -193,7 +196,7 @@ h2 {
     height:40px;
 } 
 .custom-font{
-    font-size: calc(11px +0.1vw);
+    font-size: calc(11px + 0.1vw);
 }
 .list-fsize{
     font-size: calc(12px + 0.1vw);
