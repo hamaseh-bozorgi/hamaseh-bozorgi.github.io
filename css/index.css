@@ -56,7 +56,7 @@ img::selection {
     height: 85px;
     background-color: black;
 }
-.custom-nav-hover:hover a{
+.custom-nav-hover>a:hover {
     color: #ed1c24 !important;
 }
 
